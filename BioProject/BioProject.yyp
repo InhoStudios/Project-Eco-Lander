@@ -87,11 +87,27 @@
             }
         },
         {
+            "Key": "5b1a38f5-b65f-474f-9b1e-4f2b958945c1",
+            "Value": {
+                "id": "a4c7a287-6995-4285-a22d-6831d41bed1e",
+                "resourcePath": "objects\\o_flight_craft\\o_flight_craft.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5e44b68d-21af-4ce8-ac10-6c3971126e1a",
             "Value": {
                 "id": "e6fe17b5-170d-4cd1-883e-89da8f583c4a",
                 "resourcePath": "views\\5e44b68d-21af-4ce8-ac10-6c3971126e1a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "67370eea-bace-46ed-a7ae-5b33640b1392",
+            "Value": {
+                "id": "39df23e3-6c0d-4aab-8011-f5fa51030def",
+                "resourcePath": "sprites\\spr_miner\\spr_miner.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -116,6 +132,14 @@
                 "id": "d22c2cea-e1ef-45b0-99bf-70f075a2d43c",
                 "resourcePath": "views\\8c810445-f2ac-42cd-9cd9-98ef9f588e67.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8ddd0839-820e-43f9-88ac-fb29b8248555",
+            "Value": {
+                "id": "9ca19a7c-348c-409a-bdff-2db91fe46296",
+                "resourcePath": "sprites\\spr_flight_craft\\spr_flight_craft.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
