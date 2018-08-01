@@ -34,7 +34,7 @@
             "Key": "077ea5b9-dd01-42eb-8d63-189648bddbe4",
             "Value": {
                 "id": "79f52d77-26ca-4dc5-8dbc-8ac93cad51ab",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\mediumplanet\\mediumplanet.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "3232c8ab-a943-436c-bad0-d60c7d4a7f74",
+            "Value": {
+                "id": "d350983c-ed20-49ea-b0f9-8b0682205a7f",
+                "resourcePath": "rooms\\smallplanet\\smallplanet.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "32e0a1a9-3293-4021-b93a-daad5966a883",
             "Value": {
                 "id": "b130ebdb-6a62-409a-82d7-daffc2589fe2",
@@ -71,10 +79,26 @@
             }
         },
         {
+            "Key": "358e961c-9480-421a-8f29-67b58a8934d4",
+            "Value": {
+                "id": "e3a24702-13ac-408a-9b09-4da8da79c885",
+                "resourcePath": "scripts\\get_tile_val\\get_tile_val.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "3ba76b50-9561-4967-b74b-75fa543abc32",
+            "Value": {
+                "id": "3950bc40-57bf-4928-8ee2-7c7cc627489e",
+                "resourcePath": "sprites\\spr_martian_ground\\spr_martian_ground.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "51de4a07-3e4e-4110-898b-782a034162cb",
             "Value": {
                 "id": "2baf8114-2e91-4d64-a033-12318e7ac224",
-                "resourcePath": "sprites\\spr_ground_tiles\\spr_ground_tiles.yy",
+                "resourcePath": "sprites\\spr_earthy_ground\\spr_earthy_ground.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -167,6 +191,14 @@
             }
         },
         {
+            "Key": "a9d62fe5-11d9-4acd-83ca-9d0398afb08f",
+            "Value": {
+                "id": "8bccac9b-5d66-4085-a356-aee0629dcfd2",
+                "resourcePath": "scripts\\mineResource\\mineResource.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b3187ec2-fb0c-4e27-ab68-ea1eb2f1f5de",
             "Value": {
                 "id": "a0be5830-299f-49ea-b949-d751e815304b",
@@ -180,6 +212,14 @@
                 "id": "6d84a1fc-2cd3-4c48-ae35-b7f118416dee",
                 "resourcePath": "objects\\o_ground\\o_ground.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bb88156e-986c-4bac-9b00-0fc2a4d67bcd",
+            "Value": {
+                "id": "68180039-3b4d-44f7-b06c-7e597e8c6a5a",
+                "resourcePath": "sprites\\spr_moon_ground\\spr_moon_ground.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -204,6 +244,14 @@
                 "id": "df8253d0-4a32-4786-9d83-089965378ce9",
                 "resourcePath": "views\\d19b1440-87a6-40c3-88f0-25e27ed6a15f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d36a2560-0570-4306-b269-69a6f132dbe5",
+            "Value": {
+                "id": "c05bad5d-1777-4c06-9f85-fc1af3b1b4c4",
+                "resourcePath": "objects\\o_mining_manager\\o_mining_manager.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -244,6 +292,14 @@
                 "id": "d7659183-4103-4809-8222-b9ad1a7f9461",
                 "resourcePath": "views\\db998950-1560-4aed-82a1-46cb3327136c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e58eb718-1cab-44c7-a017-1c572ae0064b",
+            "Value": {
+                "id": "78234230-5b80-4281-8538-a026f418c7c6",
+                "resourcePath": "rooms\\largeplanet\\largeplanet.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -296,7 +352,9 @@
         }
     ],
     "script_order": [
-        "17273ec5-4c80-4d2a-875b-07726f399fd5"
+        "17273ec5-4c80-4d2a-875b-07726f399fd5",
+        "358e961c-9480-421a-8f29-67b58a8934d4",
+        "a9d62fe5-11d9-4acd-83ca-9d0398afb08f"
     ],
     "tutorial": ""
 }
