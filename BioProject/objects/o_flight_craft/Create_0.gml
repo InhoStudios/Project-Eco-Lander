@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+image_speed = 0;
+image_index = 0;
+
 // stats
 maxFuel = 100;
 fuel = maxFuel;
@@ -12,7 +15,7 @@ anorthite = 0;
 // mining
 drillSpeed = room_speed * 5;
 mining = false;
-mineSetTime = room_speed / 2;
+mineSetTime = room_speed;
 mineTime = 0;
 
 // riding

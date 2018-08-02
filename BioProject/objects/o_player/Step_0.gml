@@ -24,7 +24,7 @@ if(craft.carrying){
 	y += vsp;
 }
 
-if(place_meeting(x,y,craft) && keyInteract){
+if(place_meeting(x,y,craft) && keyInteract && !craft.mining){
 	if(craft.carrying){
 		craft.carrying = false;
 	} else {

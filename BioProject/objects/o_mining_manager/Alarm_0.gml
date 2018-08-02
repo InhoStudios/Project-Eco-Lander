@@ -1,7 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-sat[room_width/32,room_height/32] = 0;
-viab[room_width/32,room_height/32] = 0;
 
 for(xx = 0; xx < room_width; xx += 32){
 	for(yy = 0; yy < room_height; yy += 32){
@@ -49,5 +47,3 @@ for(xx = 0; xx < room_width; xx += 32){
 		}
 	}
 }
-
-alarm[0] = 1;

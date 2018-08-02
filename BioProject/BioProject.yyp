@@ -130,7 +130,7 @@
             "Key": "67370eea-bace-46ed-a7ae-5b33640b1392",
             "Value": {
                 "id": "39df23e3-6c0d-4aab-8011-f5fa51030def",
-                "resourcePath": "sprites\\spr_miner\\spr_miner.yy",
+                "resourcePath": "sprites\\spr_exit_craft\\spr_exit_craft.yy",
                 "resourceType": "GMSprite"
             }
         },
