@@ -620,11 +620,8 @@
             "id": "3a40feaf-ac71-4cad-9c40-8208b239e98c",
             "animationFPS": 15,
             "animationSpeedType": "0",
-<<<<<<< HEAD:BioProject/rooms/mediumplanet/mediumplanet.yy
+
             "colour": { "Value": 4294967295 },
-=======
-            "colour": { "Value": 4282814464 },
->>>>>>> master:BioProject/rooms/room0/room0.yy
             "depth": 300,
             "grid_x": 32,
             "grid_y": 32,
@@ -671,11 +668,7 @@
         "Height": 8192,
         "inheritRoomSettings": false,
         "modelName": "GMRoomSettings",
-<<<<<<< HEAD:BioProject/rooms/mediumplanet/mediumplanet.yy
         "persistent": true,
-=======
-        "persistent": false,
->>>>>>> master:BioProject/rooms/room0/room0.yy
         "mvc": "1.0",
         "Width": 8192
     },
