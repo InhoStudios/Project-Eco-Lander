@@ -13,7 +13,7 @@ for(xx = 0; xx < room_width; xx += 32){
 		case spr_earthy_ground:
 		case spr_martian_ground:
 		// finding the current tile type
-			switch(image_index){
+			switch(curTile.image_index){
 				// grass / martian dirt
 				case 0:
 					viab[xx,yy] = 75;
@@ -29,7 +29,7 @@ for(xx = 0; xx < room_width; xx += 32){
 			}
 			break;
 		case spr_moon_ground:
-			switch(image_index){
+			switch(curTile.image_index){
 				// no craters
 				case 0:
 					viab[xx,yy] = 40;
