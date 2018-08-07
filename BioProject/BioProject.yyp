@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "557f2cfa-019b-429a-98e1-a5f1995a0e79",
+            "Value": {
+                "id": "7901bfd7-1f2a-4c04-ba0f-4855023bbb7c",
+                "resourcePath": "objects\\game\\game.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "55bf7b53-a62b-44a3-8c86-ca074aa97dbb",
             "Value": {
                 "id": "8f5ce585-6db7-4b29-bc12-59e3699823fb",
