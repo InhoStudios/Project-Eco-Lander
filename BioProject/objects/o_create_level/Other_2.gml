@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 rm_start = mediumplanet;
-switch(irandom(3)){
+random_set_seed(irandom_range(-10000000, 10000000));
+switch(choose(0,1,2)){
 	case 0:
 		rm_start = smallplanet;
 		break;

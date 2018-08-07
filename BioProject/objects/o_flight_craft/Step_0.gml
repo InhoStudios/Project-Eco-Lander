@@ -18,12 +18,13 @@ if(carrying){
 
 	x += hsp;
 	y += vsp;
-	image_index = 1;
-} else {
-	image_index = 0;
-}
+	if(!lit){
+		light = instance_create_layer(x,y,lightEng.light_layer,o_light);
+		lit = true
+	}
+} 
 
-if(place_meeting(x,y,o_player)){
+if(place_meeting(x,y,o_player) && (!place_meeting(x,y,o_rock) || !carrying)){
 	if(keySetMine){
 		mineTime++;
 		if(mineTime >= mineSetTime){
@@ -40,6 +41,10 @@ if(place_meeting(x,y,o_player)){
 	}
 }
 
+if(place_meeting(x,y,o_rock)){
+	carrying = true;
+}
+
 if(mining){
 	if(alarm[0] <= 0){
 		show_debug_message("About to Mine");
@@ -47,4 +52,37 @@ if(mining){
 		alarm[0] = drillSpeed;
 	}
 	carrying = false;
+	if(!lit){
+		light = instance_create_layer(x,y,lightEng.light_layer,o_light);
+		lit = true
+	}
+}
+
+if(x > room_width){
+	x = 4;
+}
+if(x < 0){
+	x = room_width - 4;
+}
+
+if(y > room_height){
+	y = 4;
+}
+if(y < 0){
+	y = room_height - 4;
+}
+
+if(instance_exists(light)){
+	light.image_xscale = 2 * image_xscale;
+	light.image_yscale = 2 * image_yscale;
+	light.x = x;
+	light.y = y;
+	light.image_blend = c_yellow;
+}
+
+if(!carrying && !mining){
+	lit = false;
+	if(instance_exists(light)){
+		with(light) instance_destroy();
+	}
 }

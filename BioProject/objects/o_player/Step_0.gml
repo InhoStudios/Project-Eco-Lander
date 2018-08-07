@@ -16,6 +16,20 @@ if(hh != 0 || ww != 0){
 hsp = lengthdir_x(movespeed,dir) * (ww * ww);
 vsp = lengthdir_y(movespeed,dir) * (hh * hh);
 
+if(place_meeting(x + hsp,y,o_rock)){
+	while(!place_meeting(x + sign(hsp),y,o_rock)){
+		x += sign(hsp);
+	}
+	hsp = 0;
+}
+
+if(place_meeting(x,y + vsp,o_rock)){
+	while(!place_meeting(x,y + sign(vsp),o_rock)){
+		y += sign(vsp);
+	}
+	vsp = 0;
+}
+
 if(craft.carrying){
 	x = craft.x;
 	y = craft.y;
@@ -26,8 +40,26 @@ if(craft.carrying){
 
 if(place_meeting(x,y,craft) && keyInteract && !craft.mining){
 	if(craft.carrying){
-		craft.carrying = false;
+		if(!place_meeting(x,y,o_rock)){
+			craft.carrying = false;
+		}
 	} else {
 		craft.carrying = true;
+	}
+}
+
+if(!craft.carrying){
+	if(x > room_width){
+		x = 4;
+	}
+	if(x < 0){
+		x = room_width - 4;
+	}
+
+	if(y > room_height){
+		y = 4;
+	}
+	if(y < 0){
+		y = room_height - 4;
 	}
 }

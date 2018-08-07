@@ -19,8 +19,10 @@ mineSetTime = room_speed;
 mineTime = 0;
 
 // riding
-movespeed = 3;
+movespeed = 7;
 hsp = 0;
 vsp = 0;
 dir = 0;
 carrying = false;
+lit = false;
+light = noone;
